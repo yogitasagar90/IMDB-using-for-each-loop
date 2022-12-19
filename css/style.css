@@ -1,43 +1,51 @@
-/* .demo{
-    height: 500px;
-    margin-bottom: 10px;
-    background-color:orange;
-} */
-
-body,ul,ol,p,h1,h2,h3,h4,h5,h6{
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0;
     margin: 0;
 }
-/* body{
-    background: #000;
+
+.container-fluid {
+    background-color: darkgray;
 }
-.header{
-    text-align: center;
-} */
-.movieCard{
-    height: 500px;
+
+.card {
+    margin-bottom: 5px;
+}
+
+.cCard {
+    height: 400px;
     margin: 0;
     overflow: hidden;
     position: relative;
 }
-.movieCard img{
+
+.cCard img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    width: 20rem;
+    height: 12rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-.movieCard figcaption{
+
+.cCard figcaption {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
-.overview{
-    position: absolute;
-    bottom: -120%;
-    left: 0;
-    right: 0;
-    transition: all .3s;
-}
-.movieCard:hover .overview{
-    bottom: 0;
+
+.cData {
+    margin: 0;
 }
